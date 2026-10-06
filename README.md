@@ -13,3 +13,7 @@ Responsive landing page built with HTML and CSS.
 - CSS Grid
 - Flexbox
 - Hover effects
+
+## Live Demo
+
+[View Live Website](https://lobjja.github.io/wp-plugins-landing-page/)
