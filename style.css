@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+
+main {
+  flex: 1;
+}
+
+
+.header__logo {
+  display: flex;
+  justify-content: center;
+  padding: 20px 19px;
+  position: relative;
+}
+
+.header__logo::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  height: 1px;
+  background-color: #F3F3F3;
+}
+
+.main {
+    padding: 20px;
+}
+
+.main__title h1 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.main__card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
+  justify-content: space-around;
+  gap: 20px;
+  list-style: none;
+}
+
+.main__card {
+    margin-top: 54px;
+}
+
+.main__card-title h2 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #333333;
+}
+
+.main__card-title p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #489DFF;
+    margin-bottom: 16px
+}
+
+.button {
+    padding: 16px 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #489DFF;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #3871b3;
+}
+
+.footer {
+    padding: 24px 20px;
+}
+
+.footer__inner {
+    text-align: center;
+}
+
+.footer__info p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #525F7F;
+    margin-bottom: 15px;
+}
+
+.footer__info a {
+    text-decoration: none;
+    color: #489DFF;
+}
+
+.footer__img {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__img a:last-child {
+  margin-right: 0;
+}
+
+.footer__img a:nth-child(1) {
+  margin-right: 8px;
+}
+
+.footer__img a:nth-child(2) {
+  margin-right: 12px;
+}
+
+.footer__img a:nth-child(3) {
+  margin-right: 10px;
+}
+
+.footer__img a:nth-child(4) {
+  margin-right: 10px;
+}
